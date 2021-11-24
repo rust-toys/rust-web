@@ -1,0 +1,33 @@
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header {
+  height: 60px;
+}
+
+.w-200 {
+  width: 500px;
+}
+.m-l-20 {
+  margin-left: 20px;
+}
+.list-container {
+  width: 600px;
+  flex-wrap: wrap;
+  height: 60vh;
+  overflow: auto;
+}
+.list-item {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  color: #f10215;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+}
